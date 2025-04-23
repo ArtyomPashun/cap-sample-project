@@ -38,10 +38,6 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			<dependency>
-				<groupId>com.sap.cds</groupId>
-				<artifactId>cds-starter-cloudfoundry</artifactId>
-			</dependency>
 
 			<!-- SPRING BOOT -->
 			<dependency>
