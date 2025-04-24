@@ -1,4 +1,4 @@
-namespace com.sample.app;
+namespace com.sample.app.dm;
 
 using {cuid, managed} from '@sap/cds/common';
 

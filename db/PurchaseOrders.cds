@@ -1,8 +1,8 @@
-namespace com.sample.app;
+namespace com.sample.app.dm;
 
 using {cuid, managed} from '@sap/cds/common';
-using {com.sample.app.Customers} from './Customers';
-using {com.sample.app.OrderItems} from './OrderItems';
+using {com.sample.app.dm.Customers} from './Customers';
+using {com.sample.app.dm.OrderItems} from './OrderItems';
 
 entity PurchaseOrders : cuid, managed {
     createdAt    : DateTime;

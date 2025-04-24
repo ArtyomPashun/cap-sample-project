@@ -1,8 +1,8 @@
-namespace com.sample.app;
+namespace com.sample.app.dm;
 
 using {cuid, managed} from '@sap/cds/common';
-using {com.sample.app.Products} from './Products';
-using {com.sample.app.PurchaseOrders} from './PurchaseOrders';
+using {com.sample.app.dm.Products} from './Products';
+using {com.sample.app.dm.PurchaseOrders} from './PurchaseOrders';
 
 entity OrderItems : cuid, managed {
     quantity : Integer;
