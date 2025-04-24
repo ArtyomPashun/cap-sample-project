@@ -1,4 +1,4 @@
-package customer.cap_sample_project;
+package com.pashuna.cap_sample_project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
