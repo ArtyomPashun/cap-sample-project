@@ -3,7 +3,7 @@
 
 	<parent>
 		<artifactId>cap-sample-project-parent</artifactId>
-		<groupId>customer</groupId>
+		<groupId>com.pashuna</groupId>
 		<version>${revision}</version>
 	</parent>
 
