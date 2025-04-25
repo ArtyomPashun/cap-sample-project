@@ -1,0 +1,6 @@
+ID,name,description,price,createdAt,createdBy,modifiedAt,modifiedBy,ProductType_ID
+915c45f1-7a10-45d4-8cf9-1f47da00923a,Laptop,"High performance laptop",1500.00,2025-04-20T11:00:00Z,system,2025-04-20T11:05:00Z,system,c1d90e18-daf8-4f32-89a8-82ee7f0348a1
+b3b6c85d-557a-4232-9e75-1d9a8b67742e,Smartphone,"Latest smartphone model",800.00,2025-04-20T11:10:00Z,system,2025-04-20T11:15:00Z,system,8397e2f1-4724-4c98-b1c3-847b54e87bf2
+75c6abf1-8696-4e8d-8bb5-c38bbb0d4496,Tablet,"10-inch tablet device",600.00,2025-04-20T11:20:00Z,system,2025-04-20T11:25:00Z,system,8397e2f1-4724-4c98-b1c3-847b54e87bf2
+38c4a393-2a5a-43f5-ab1d-89ce2fad1c3d,Monitor,"24-inch LED monitor",300.00,2025-04-20T11:30:00Z,system,2025-04-20T11:35:00Z,system,ac9f3c29-cc3b-4dde-9c18-bae5b4f9a8a3
+0e4bd1a6-cb5a-4d8c-ae46-af87a1a9f402,Keyboard,"Mechanical keyboard",100.00,2025-04-20T11:40:00Z,system,2025-04-20T11:45:00Z,system,56c8eca4-05b2-456b-9f17-84e7348d0911

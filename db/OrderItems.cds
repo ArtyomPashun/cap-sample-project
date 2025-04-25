@@ -7,6 +7,6 @@ using {com.sample.app.dm.PurchaseOrders} from './PurchaseOrders';
 entity OrderItems : cuid, managed {
     quantity : Integer;
     unitPrice : Decimal(10,2);
-    product : Association to Products;
-    order : Association to PurchaseOrders;
+    Product : Association to Products;
+    PurchaseOrders : Association to PurchaseOrders;
 }
