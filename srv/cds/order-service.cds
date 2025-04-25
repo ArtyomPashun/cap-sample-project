@@ -8,4 +8,8 @@ service OrderService {
   entity Products as projection on dm.Products;
   entity Customers as projection on dm.Customers;
   entity ProductTypes as projection on dm.ProductTypes;
+
+  action approve() returns PurchaseOrders;
+
+  function calcDiscount() returns Decimal(10,2);
 }

@@ -10,4 +10,5 @@ entity PurchaseOrders : cuid, managed {
     totalAmount : Decimal(10,2);
     Customer : Association to Customers;
     OrderItems : Composition of many OrderItems on OrderItems.PurchaseOrders = $self;
+    taxAmount : Decimal(10,2) @cds.virtual;
 }
