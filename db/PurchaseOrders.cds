@@ -8,7 +8,8 @@ entity PurchaseOrders : cuid, managed {
     createdAt : DateTime;
     status : String(20);
     totalAmount : Decimal(10,2);
+    approved: Boolean default false;
     Customer : Association to Customers;
     OrderItems : Composition of many OrderItems on OrderItems.PurchaseOrders = $self;
-    taxAmount : Decimal(10,2) @cds.virtual;
+    virtual taxAmount : Decimal(10,2);
 }
