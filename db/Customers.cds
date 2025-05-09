@@ -8,5 +8,5 @@ entity Customers: cuid, managed {
       email : String(100);
       phone : String(20);
       address : String(200);
-      orders  : Association to many PurchaseOrders on orders.customer = $self;
+      PurchaseOrders : Association to many PurchaseOrders on PurchaseOrders.Customer = $self;
 }

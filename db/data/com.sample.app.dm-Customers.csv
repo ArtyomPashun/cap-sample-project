@@ -1,0 +1,6 @@
+ID,name,email,phone,address,createdAt,createdBy,modifiedAt,modifiedBy
+1b47e66a-f6b0-45cf-ba4a-133586f50f23,John Doe,john.doe@example.com,111-222-3333,"123 Maple St, Anytown",2025-04-20T12:00:00Z,system,2025-04-20T12:10:00Z,system
+f22c3e6d-345e-48a8-9ea4-c9c9e14ce6c4,Jane Smith,jane.smith@example.com,222-333-4444,"456 Oak Ave, Othertown",2025-04-20T13:00:00Z,system,2025-04-20T13:10:00Z,system
+a7f2b1e3-6d1c-44a4-a531-d86732b8a8f5,Bob Johnson,bob.johnson@example.com,333-444-5555,"789 Pine Rd, Sometown",2025-04-20T14:00:00Z,system,2025-04-20T14:10:00Z,system
+0b515e92-19a0-4d3a-8510-c298d4e14036,Alice Brown,alice.brown@example.com,444-555-6666,"101 Elm St, Newcity",2025-04-20T15:00:00Z,system,2025-04-20T15:10:00Z,system
+3f0f2b80-84d5-4a7f-8d2d-9c2d7a35c6f8,Charlie Davis,charlie.davis@example.com,555-666-7777,"202 Birch Ln, Oldtown",2025-04-20T16:00:00Z,system,2025-04-20T16:10:00Z,system
