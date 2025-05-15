@@ -5,7 +5,12 @@
     "requires": {
         "[production]": {
             "auth": "xsuaa",
-            "db": "hana"
+            "db": "hana",
+            "multitenancy": true
         }
-    }
+    },
+    "profiles": [
+        "with-mtx-sidecar",
+        "java"
+    ]
 }
